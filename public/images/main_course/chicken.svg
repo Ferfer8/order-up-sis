@@ -1,121 +1,149 @@
 <svg width="552" height="415" viewBox="0 0 552 415" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <ellipse cx="275.667" cy="207.034" rx="275.667" ry="207.034" fill="#FBF3F3"/>
 <ellipse cx="276.234" cy="207.034" rx="255.814" ry="192.286" fill="#FBF3F3"/>
-<mask id="stroke0_9_8548" fill="white">
+<mask id="stroke0_9_4822" fill="white">
 <path d="M532.048 207.034C532.048 313.23 417.516 399.32 276.234 399.32C134.952 399.32 20.4199 313.23 20.4199 207.034C20.4199 100.837 134.952 14.7476 276.234 14.7476C417.516 14.7476 532.048 100.837 532.048 207.034Z"/>
 </mask>
-<ellipse cx="276.234" cy="207.034" rx="255.814" ry="192.286" stroke-width="4" stroke="#CAB2B2" mask="url(#stroke0_9_8548)"/>
+<ellipse cx="276.234" cy="207.034" rx="255.814" ry="192.286" stroke-width="4" stroke="#CAB2B2" mask="url(#stroke0_9_4822)"/>
 <rect x="137" y="148" width="153" height="25" fill="#DABDAE"/>
-<ellipse cx="146.5" cy="158" rx="75.5" ry="48" fill="url(#paint0_linear_9_8548)"/>
-<mask id="stroke1_9_8548" fill="white">
+<ellipse cx="146.5" cy="158" rx="75.5" ry="48" fill="url(#paint0_linear_9_4822)"/>
+<mask id="stroke1_9_4822" fill="white">
 <path d="M222 158C222 184.51 188.198 206 146.5 206C104.803 206 71 184.51 71 158C71 131.49 104.803 110 146.5 110C188.198 110 222 131.49 222 158Z"/>
 </mask>
-<ellipse cx="146.5" cy="158" rx="75.5" ry="48" stroke-width="4" stroke="black" mask="url(#stroke1_9_8548)"/>
+<ellipse cx="146.5" cy="158" rx="75.5" ry="48" stroke-width="4" stroke="black" mask="url(#stroke1_9_4822)"/>
 <ellipse cx="294" cy="150.5" rx="9" ry="10.5" fill="#CFA274"/>
 <ellipse cx="294" cy="168.5" rx="9" ry="10.5" fill="#CFA274"/>
 <rect x="130.284" y="193.155" width="153" height="25" transform="rotate(21.7893 130.284 193.155)" fill="#DABDAE"/>
-<use xlink:href="#stroke2_9_8548" fill="url(#paint1_linear_9_8548)"/>
-<mask id="stroke3_9_8548" fill="white">
-<use xlink:href="#stroke2_9_8548"/>
+<use xlink:href="#stroke2_9_4822" fill="url(#paint1_linear_9_4822)"/>
+<mask id="stroke3_9_4822" fill="white">
+<use xlink:href="#stroke2_9_4822"/>
 </mask>
-<path d="M205.5 233.992C195.659 258.608 156.295 266.015 117.576 250.537C78.8578 235.059 55.4474 202.557 65.2877 177.942C75.1279 153.326 114.492 145.918 153.211 161.396C191.929 176.874 215.34 209.376 205.5 233.992Z" stroke-width="4" stroke="black" mask="url(#stroke3_9_8548)"/>
+<path d="M205.5 233.992C195.659 258.608 156.295 266.015 117.576 250.537C78.8578 235.059 55.4474 202.557 65.2877 177.942C75.1279 153.326 114.492 145.918 153.211 161.396C191.929 176.874 215.34 209.376 205.5 233.992Z" stroke-width="4" stroke="black" mask="url(#stroke3_9_4822)"/>
 <ellipse cx="275.14" cy="253.754" rx="9" ry="10.5" transform="rotate(21.7893 275.14 253.754)" fill="#CFA274"/>
 <ellipse cx="268.458" cy="270.468" rx="9" ry="10.5" transform="rotate(21.7893 268.458 270.468)" fill="#CFA274"/>
 <rect x="269.814" y="72.7839" width="153" height="25" transform="rotate(21.7893 269.814 72.7839)" fill="#DABDAE"/>
-<use xlink:href="#stroke4_9_8548" fill="url(#paint2_linear_9_8548)"/>
-<mask id="stroke5_9_8548" fill="white">
-<use xlink:href="#stroke4_9_8548"/>
+<use xlink:href="#stroke4_9_4822" fill="url(#paint2_linear_9_4822)"/>
+<mask id="stroke5_9_4822" fill="white">
+<use xlink:href="#stroke4_9_4822"/>
 </mask>
-<path d="M345.029 113.621C335.189 138.237 295.824 145.644 257.106 130.166C218.388 114.689 194.977 82.1863 204.817 57.5707C214.658 32.955 254.022 25.5473 292.741 41.0252C331.459 56.503 354.87 89.0053 345.029 113.621Z" stroke-width="4" stroke="black" mask="url(#stroke5_9_8548)"/>
+<path d="M345.029 113.621C335.189 138.237 295.824 145.644 257.106 130.166C218.388 114.689 194.977 82.1863 204.817 57.5707C214.658 32.955 254.022 25.5473 292.741 41.0252C331.459 56.503 354.87 89.0053 345.029 113.621Z" stroke-width="4" stroke="black" mask="url(#stroke5_9_4822)"/>
 <ellipse cx="414.669" cy="133.383" rx="9" ry="10.5" transform="rotate(21.7893 414.669 133.383)" fill="#CFA274"/>
 <ellipse cx="407.988" cy="150.097" rx="9" ry="10.5" transform="rotate(21.7893 407.988 150.097)" fill="#CFA274"/>
 <rect x="363.523" y="71.75" width="153" height="25" transform="rotate(31.288 363.523 71.75)" fill="#DABDAE"/>
-<use xlink:href="#stroke6_9_8548" fill="url(#paint3_linear_9_8548)"/>
-<mask id="stroke7_9_8548" fill="white">
-<use xlink:href="#stroke6_9_8548"/>
+<use xlink:href="#stroke6_9_4822" fill="url(#paint3_linear_9_4822)"/>
+<mask id="stroke7_9_4822" fill="white">
+<use xlink:href="#stroke6_9_4822"/>
 </mask>
-<path d="M430.968 124.44C417.2 147.094 377.153 147.904 341.52 126.249C305.886 104.593 288.161 68.6735 301.928 46.0192C315.696 23.3649 355.743 22.555 391.376 44.2102C427.01 65.8654 444.735 101.785 430.968 124.44Z" stroke-width="4" stroke="black" mask="url(#stroke7_9_8548)"/>
+<path d="M430.968 124.44C417.2 147.094 377.153 147.904 341.52 126.249C305.886 104.593 288.161 68.6735 301.928 46.0192C315.696 23.3649 355.743 22.555 391.376 44.2102C427.01 65.8654 444.735 101.785 430.968 124.44Z" stroke-width="4" stroke="black" mask="url(#stroke7_9_4822)"/>
 <ellipse cx="496.392" cy="155.423" rx="9" ry="10.5" transform="rotate(31.288 496.392 155.423)" fill="#CFA274"/>
 <ellipse cx="487.044" cy="170.805" rx="9" ry="10.5" transform="rotate(31.288 487.044 170.805)" fill="#CFA274"/>
 <rect x="335.86" y="220.886" width="153" height="25" transform="rotate(40.7867 335.86 220.886)" fill="#DABDAE"/>
-<use xlink:href="#stroke8_9_8548" fill="url(#paint4_linear_9_8548)"/>
-<mask id="stroke9_9_8548" fill="white">
-<use xlink:href="#stroke8_9_8548"/>
+<use xlink:href="#stroke8_9_4822" fill="url(#paint4_linear_9_4822)"/>
+<mask id="stroke9_9_4822" fill="white">
+<use xlink:href="#stroke8_9_4822"/>
 </mask>
-<path d="M393.685 283.983C376.367 304.055 336.736 298.245 305.164 271.006C273.593 243.767 262.038 205.415 279.356 185.343C296.673 165.271 336.305 171.081 367.876 198.32C399.447 225.559 411.002 263.911 393.685 283.983Z" stroke-width="4" stroke="black" mask="url(#stroke9_9_8548)"/>
+<path d="M393.685 283.983C376.367 304.055 336.736 298.245 305.164 271.006C273.593 243.767 262.038 205.415 279.356 185.343C296.673 165.271 336.305 171.081 367.876 198.32C399.447 225.559 411.002 263.911 393.685 283.983Z" stroke-width="4" stroke="black" mask="url(#stroke9_9_4822)"/>
 <ellipse cx="453.099" cy="325.338" rx="9" ry="10.5" transform="rotate(40.7867 453.099 325.338)" fill="#CFA274"/>
 <ellipse cx="441.34" cy="338.967" rx="9" ry="10.5" transform="rotate(40.7867 441.34 338.967)" fill="#CFA274"/>
 <rect x="257.86" y="203.886" width="153" height="25" transform="rotate(40.7867 257.86 203.886)" fill="#DABDAE"/>
-<use xlink:href="#stroke10_9_8548" fill="url(#paint5_linear_9_8548)"/>
-<mask id="stroke11_9_8548" fill="white">
-<use xlink:href="#stroke10_9_8548"/>
+<use xlink:href="#stroke10_9_4822" fill="url(#paint5_linear_9_4822)"/>
+<mask id="stroke11_9_4822" fill="white">
+<use xlink:href="#stroke10_9_4822"/>
 </mask>
-<path d="M315.685 266.983C298.367 287.055 258.736 281.245 227.164 254.006C195.593 226.767 184.038 188.415 201.356 168.343C218.673 148.271 258.305 154.081 289.876 181.32C321.447 208.559 333.002 246.911 315.685 266.983Z" stroke-width="4" stroke="black" mask="url(#stroke11_9_8548)"/>
+<path d="M315.685 266.983C298.367 287.055 258.736 281.245 227.164 254.006C195.593 226.767 184.038 188.415 201.356 168.343C218.673 148.271 258.305 154.081 289.876 181.32C321.447 208.559 333.002 246.911 315.685 266.983Z" stroke-width="4" stroke="black" mask="url(#stroke11_9_4822)"/>
 <ellipse cx="375.099" cy="308.338" rx="9" ry="10.5" transform="rotate(40.7867 375.099 308.338)" fill="#CFA274"/>
 <ellipse cx="363.34" cy="321.967" rx="9" ry="10.5" transform="rotate(40.7867 363.34 321.967)" fill="#CFA274"/>
-<rect x="388.098" y="167.256" width="153" height="25" transform="rotate(33.7366 388.098 167.256)" fill="#DABDAE"/>
-<use xlink:href="#stroke12_9_8548" fill="url(#paint6_linear_9_8548)"/>
-<mask id="stroke13_9_8548" fill="white">
-<use xlink:href="#stroke12_9_8548"/>
+<rect x="111.668" y="246.483" width="153" height="25" transform="rotate(37.8368 111.668 246.483)" fill="#DABDAE"/>
+<use xlink:href="#stroke12_9_4822" fill="url(#paint6_linear_9_4822)"/>
+<mask id="stroke13_9_4822" fill="white">
+<use xlink:href="#stroke12_9_4822"/>
 </mask>
-<path d="M453.23 222.779C438.507 244.824 398.462 243.922 363.786 220.764C329.11 197.607 312.936 160.962 327.658 138.917C342.381 116.871 382.427 117.773 417.102 140.931C451.778 164.089 467.953 200.733 453.23 222.779Z" stroke-width="4" stroke="black" mask="url(#stroke13_9_8548)"/>
+<path d="M172.664 306.521C156.402 327.457 116.524 323.695 83.5927 298.117C50.6617 272.539 37.1482 234.832 53.4096 213.896C69.671 192.959 109.549 196.722 142.48 222.3C175.412 247.878 188.925 285.585 172.664 306.521Z" stroke-width="4" stroke="black" mask="url(#stroke13_9_4822)"/>
+<ellipse cx="234.127" cy="344.764" rx="9" ry="10.5" transform="rotate(37.8368 234.127 344.764)" fill="#CFA274"/>
+<ellipse cx="223.085" cy="358.979" rx="9" ry="10.5" transform="rotate(37.8368 223.085 358.979)" fill="#CFA274"/>
+<rect x="236.375" y="271.393" width="153" height="25" transform="rotate(26.5974 236.375 271.393)" fill="#DABDAE"/>
+<use xlink:href="#stroke14_9_4822" fill="url(#paint7_linear_9_4822)"/>
+<mask id="stroke15_9_4822" fill="white">
+<use xlink:href="#stroke14_9_4822"/>
+</mask>
+<path d="M307.903 318.391C296.034 342.095 256.187 346.177 218.903 327.508C181.618 308.84 161.014 274.49 172.883 250.785C184.752 227.081 224.599 222.999 261.884 241.668C299.169 260.336 319.772 294.687 307.903 318.391Z" stroke-width="4" stroke="black" mask="url(#stroke15_9_4822)"/>
+<ellipse cx="375.642" cy="343.92" rx="9" ry="10.5" transform="rotate(26.5974 375.642 343.92)" fill="#CFA274"/>
+<ellipse cx="367.583" cy="360.015" rx="9" ry="10.5" transform="rotate(26.5974 367.583 360.015)" fill="#CFA274"/>
+<rect x="388.098" y="167.256" width="153" height="25" transform="rotate(33.7366 388.098 167.256)" fill="#DABDAE"/>
+<use xlink:href="#stroke16_9_4822" fill="url(#paint8_linear_9_4822)"/>
+<mask id="stroke17_9_4822" fill="white">
+<use xlink:href="#stroke16_9_4822"/>
+</mask>
+<path d="M453.23 222.779C438.507 244.824 398.462 243.922 363.786 220.764C329.11 197.607 312.936 160.962 327.658 138.917C342.381 116.871 382.427 117.773 417.102 140.931C451.778 164.089 467.953 200.733 453.23 222.779Z" stroke-width="4" stroke="black" mask="url(#stroke17_9_4822)"/>
 <ellipse cx="517.27" cy="256.529" rx="9" ry="10.5" transform="rotate(33.7366 517.27 256.529)" fill="#CFA274"/>
 <ellipse cx="507.274" cy="271.497" rx="9" ry="10.5" transform="rotate(33.7366 507.274 271.497)" fill="#CFA274"/>
 <rect x="260.336" y="135.636" width="153" height="25" transform="rotate(22.8365 260.336 135.636)" fill="#DABDAE"/>
-<use xlink:href="#stroke14_9_8548" fill="url(#paint7_linear_9_8548)"/>
-<mask id="stroke15_9_8548" fill="white">
-<use xlink:href="#stroke14_9_8548"/>
+<use xlink:href="#stroke18_9_4822" fill="url(#paint9_linear_9_4822)"/>
+<mask id="stroke19_9_4822" fill="white">
+<use xlink:href="#stroke18_9_4822"/>
 </mask>
-<path d="M334.793 177.841C324.504 202.273 285.011 208.96 246.582 192.777C208.153 176.594 185.34 143.669 195.629 119.238C205.917 94.8058 245.411 88.1188 283.84 104.302C322.269 120.485 345.081 153.409 334.793 177.841Z" stroke-width="4" stroke="black" mask="url(#stroke15_9_8548)"/>
+<path d="M334.793 177.841C324.504 202.273 285.011 208.96 246.582 192.777C208.153 176.594 185.34 143.669 195.629 119.238C205.917 94.8058 245.411 88.1188 283.84 104.302C322.269 120.485 345.081 153.409 334.793 177.841Z" stroke-width="4" stroke="black" mask="url(#stroke19_9_4822)"/>
 <ellipse cx="404.06" cy="198.872" rx="9" ry="10.5" transform="rotate(22.8365 404.06 198.872)" fill="#CFA274"/>
 <ellipse cx="397.074" cy="215.461" rx="9" ry="10.5" transform="rotate(22.8365 397.074 215.461)" fill="#CFA274"/>
 <defs>
-<linearGradient id="paint0_linear_9_8548" x1="85.5" y1="136" x2="309" y2="206" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_9_4822" x1="85.5" y1="136" x2="309" y2="206" gradientUnits="userSpaceOnUse">
 <stop stop-color="#B66938"/>
 <stop offset="0.766405" stop-color="#683C20"/>
 <stop offset="1" stop-color="#502E19"/>
 </linearGradient>
-<linearGradient id="paint1_linear_9_8548" x1="86.918" y1="162.896" x2="268.466" y2="310.856" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint1_linear_9_4822" x1="86.918" y1="162.896" x2="268.466" y2="310.856" gradientUnits="userSpaceOnUse">
 <stop stop-color="#B66938"/>
 <stop offset="0.766405" stop-color="#683C20"/>
 <stop offset="1" stop-color="#502E19"/>
 </linearGradient>
-<linearGradient id="paint2_linear_9_8548" x1="226.448" y1="42.5248" x2="407.996" y2="190.486" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint2_linear_9_4822" x1="226.448" y1="42.5248" x2="407.996" y2="190.486" gradientUnits="userSpaceOnUse">
 <stop stop-color="#B66938"/>
 <stop offset="0.766405" stop-color="#683C20"/>
 <stop offset="1" stop-color="#502E19"/>
 </linearGradient>
-<linearGradient id="paint3_linear_9_8548" x1="325.745" y1="34.7492" x2="480.387" y2="210.641" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint3_linear_9_4822" x1="325.745" y1="34.7492" x2="480.387" y2="210.641" gradientUnits="userSpaceOnUse">
 <stop stop-color="#B66938"/>
 <stop offset="0.766405" stop-color="#683C20"/>
 <stop offset="1" stop-color="#502E19"/>
 </linearGradient>
-<linearGradient id="paint4_linear_9_8548" x1="304.706" y1="178.158" x2="428.201" y2="377.158" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint4_linear_9_4822" x1="304.706" y1="178.158" x2="428.201" y2="377.158" gradientUnits="userSpaceOnUse">
 <stop stop-color="#B66938"/>
 <stop offset="0.766405" stop-color="#683C20"/>
 <stop offset="1" stop-color="#502E19"/>
 </linearGradient>
-<linearGradient id="paint5_linear_9_8548" x1="226.706" y1="161.158" x2="350.201" y2="360.158" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint5_linear_9_4822" x1="226.706" y1="161.158" x2="350.201" y2="360.158" gradientUnits="userSpaceOnUse">
 <stop stop-color="#B66938"/>
 <stop offset="0.766405" stop-color="#683C20"/>
 <stop offset="1" stop-color="#502E19"/>
 </linearGradient>
-<linearGradient id="paint6_linear_9_8548" x1="351.935" y1="128.675" x2="498.921" y2="311.013" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint6_linear_9_4822" x1="78.3563" y1="205.415" x2="211.929" y2="397.797" gradientUnits="userSpaceOnUse">
 <stop stop-color="#B66938"/>
 <stop offset="0.766405" stop-color="#683C20"/>
 <stop offset="1" stop-color="#502E19"/>
 </linearGradient>
-<linearGradient id="paint7_linear_9_8548" x1="217.531" y1="104.59" x2="396.345" y2="255.844" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint7_linear_9_4822" x1="195.698" y1="237.605" x2="364.206" y2="400.263" gradientUnits="userSpaceOnUse">
 <stop stop-color="#B66938"/>
 <stop offset="0.766405" stop-color="#683C20"/>
 <stop offset="1" stop-color="#502E19"/>
 </linearGradient>
-<path id="stroke2_9_8548" d="M205.5 233.992C195.659 258.608 156.295 266.015 117.576 250.537C78.8578 235.059 55.4474 202.557 65.2877 177.942C75.1279 153.326 114.492 145.918 153.211 161.396C191.929 176.874 215.34 209.376 205.5 233.992Z"/>
-<path id="stroke4_9_8548" d="M345.029 113.621C335.189 138.237 295.824 145.644 257.106 130.166C218.388 114.689 194.977 82.1863 204.817 57.5707C214.658 32.955 254.022 25.5473 292.741 41.0252C331.459 56.503 354.87 89.0053 345.029 113.621Z"/>
-<path id="stroke6_9_8548" d="M430.968 124.44C417.2 147.094 377.153 147.904 341.52 126.249C305.886 104.593 288.161 68.6735 301.928 46.0192C315.696 23.3649 355.743 22.555 391.376 44.2102C427.01 65.8654 444.735 101.785 430.968 124.44Z"/>
-<path id="stroke8_9_8548" d="M393.685 283.983C376.367 304.055 336.736 298.245 305.164 271.006C273.593 243.767 262.038 205.415 279.356 185.343C296.673 165.271 336.305 171.081 367.876 198.32C399.447 225.559 411.002 263.911 393.685 283.983Z"/>
-<path id="stroke10_9_8548" d="M315.685 266.983C298.367 287.055 258.736 281.245 227.164 254.006C195.593 226.767 184.038 188.415 201.356 168.343C218.673 148.271 258.305 154.081 289.876 181.32C321.447 208.559 333.002 246.911 315.685 266.983Z"/>
-<path id="stroke12_9_8548" d="M453.23 222.779C438.507 244.824 398.462 243.922 363.786 220.764C329.11 197.607 312.936 160.962 327.658 138.917C342.381 116.871 382.427 117.773 417.102 140.931C451.778 164.089 467.953 200.733 453.23 222.779Z"/>
-<path id="stroke14_9_8548" d="M334.793 177.841C324.504 202.273 285.011 208.96 246.582 192.777C208.153 176.594 185.34 143.669 195.629 119.238C205.917 94.8058 245.411 88.1188 283.84 104.302C322.269 120.485 345.081 153.409 334.793 177.841Z"/>
+<linearGradient id="paint8_linear_9_4822" x1="351.935" y1="128.675" x2="498.921" y2="311.013" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B66938"/>
+<stop offset="0.766405" stop-color="#683C20"/>
+<stop offset="1" stop-color="#502E19"/>
+</linearGradient>
+<linearGradient id="paint9_linear_9_4822" x1="217.531" y1="104.59" x2="396.345" y2="255.844" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B66938"/>
+<stop offset="0.766405" stop-color="#683C20"/>
+<stop offset="1" stop-color="#502E19"/>
+</linearGradient>
+<path id="stroke2_9_4822" d="M205.5 233.992C195.659 258.608 156.295 266.015 117.576 250.537C78.8578 235.059 55.4474 202.557 65.2877 177.942C75.1279 153.326 114.492 145.918 153.211 161.396C191.929 176.874 215.34 209.376 205.5 233.992Z"/>
+<path id="stroke4_9_4822" d="M345.029 113.621C335.189 138.237 295.824 145.644 257.106 130.166C218.388 114.689 194.977 82.1863 204.817 57.5707C214.658 32.955 254.022 25.5473 292.741 41.0252C331.459 56.503 354.87 89.0053 345.029 113.621Z"/>
+<path id="stroke6_9_4822" d="M430.968 124.44C417.2 147.094 377.153 147.904 341.52 126.249C305.886 104.593 288.161 68.6735 301.928 46.0192C315.696 23.3649 355.743 22.555 391.376 44.2102C427.01 65.8654 444.735 101.785 430.968 124.44Z"/>
+<path id="stroke8_9_4822" d="M393.685 283.983C376.367 304.055 336.736 298.245 305.164 271.006C273.593 243.767 262.038 205.415 279.356 185.343C296.673 165.271 336.305 171.081 367.876 198.32C399.447 225.559 411.002 263.911 393.685 283.983Z"/>
+<path id="stroke10_9_4822" d="M315.685 266.983C298.367 287.055 258.736 281.245 227.164 254.006C195.593 226.767 184.038 188.415 201.356 168.343C218.673 148.271 258.305 154.081 289.876 181.32C321.447 208.559 333.002 246.911 315.685 266.983Z"/>
+<path id="stroke12_9_4822" d="M172.664 306.521C156.402 327.457 116.524 323.695 83.5927 298.117C50.6617 272.539 37.1482 234.832 53.4096 213.896C69.671 192.959 109.549 196.722 142.48 222.3C175.412 247.878 188.925 285.585 172.664 306.521Z"/>
+<path id="stroke14_9_4822" d="M307.903 318.391C296.034 342.095 256.187 346.177 218.903 327.508C181.618 308.84 161.014 274.49 172.883 250.785C184.752 227.081 224.599 222.999 261.884 241.668C299.169 260.336 319.772 294.687 307.903 318.391Z"/>
+<path id="stroke16_9_4822" d="M453.23 222.779C438.507 244.824 398.462 243.922 363.786 220.764C329.11 197.607 312.936 160.962 327.658 138.917C342.381 116.871 382.427 117.773 417.102 140.931C451.778 164.089 467.953 200.733 453.23 222.779Z"/>
+<path id="stroke18_9_4822" d="M334.793 177.841C324.504 202.273 285.011 208.96 246.582 192.777C208.153 176.594 185.34 143.669 195.629 119.238C205.917 94.8058 245.411 88.1188 283.84 104.302C322.269 120.485 345.081 153.409 334.793 177.841Z"/>
 </defs>
 </svg>

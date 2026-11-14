@@ -1,0 +1,63 @@
+/* Sits inside a .dish. Move it per dish with --bubble-top and
+   --bubble-left on the dish's own class (see AppetizerPage.css).
+   The values are where the tip of the tail points. */
+.speech-bubble {
+    position: absolute;
+    top: var(--bubble-top, 10%);
+    left: var(--bubble-left, 50%);
+    z-index: 10;
+    width: max-content;
+    max-width: 240px;
+    margin: 0;
+    padding: 10px 16px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.25;
+    text-align: center;
+    color: #3b1d0a;
+    background-color: #fff3df;
+    border: 3px solid #3b1d0a;
+    border-radius: 18px;
+    box-shadow: 0 4px 0 #3b1d0a;
+    pointer-events: none;
+    transform: translate(-50%, calc(-100% - 14px));
+    animation: bubble_life 2.8s ease forwards;
+}
+
+/* little tail pointing down at the dish */
+.speech-bubble::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -11px;
+    width: 16px;
+    height: 16px;
+    background-color: #fff3df;
+    border-right: 3px solid #3b1d0a;
+    border-bottom: 3px solid #3b1d0a;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+@keyframes bubble_life {
+    0% {
+        opacity: 0;
+        scale: 0.7;
+    }
+
+    8% {
+        opacity: 1;
+        scale: 1;
+    }
+
+    /* stays up for about 2.5s */
+    90% {
+        opacity: 1;
+        scale: 1;
+    }
+
+    100% {
+        opacity: 0;
+        scale: 1;
+    }
+}

@@ -7,11 +7,39 @@ body.spoon-cursor-active * {
     position: fixed;
     top: 0;
     left: 0;
-    width: 60px;
+    /* sized by height so loaded spoons (which are wider) stay the same length */
+    height: 284px;
+    width: auto;
     /* the bowl of the spoon (its centre is ~17% down the image) sits on the pointer */
     transform: translate(-50%, -17%);
+    transform-origin: 50% 17%; /* shake pivots around the bowl */
     opacity: 0;
     pointer-events: none;
     z-index: 9999;
     filter: drop-shadow(6px 10px 6px rgba(0, 0, 0, 0.35));
+}
+
+/* Bounce back when the food is offered to the wrong dish.
+   Uses `translate` so it adds to the positioning transform above. */
+.spoon-bounce {
+    animation: spoon_bounce 0.45s ease-out;
+}
+
+@keyframes spoon_bounce {
+    0%,
+    100% {
+        translate: 0 0;
+    }
+
+    30% {
+        translate: 0 -22px;
+    }
+
+    60% {
+        translate: 0 6px;
+    }
+
+    80% {
+        translate: 0 -4px;
+    }
 }

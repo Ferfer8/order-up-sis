@@ -1,0 +1,18 @@
+<svg width="480" height="480" viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="240" cy="240" r="240" fill="#9A471C"/>
+<circle cx="240" cy="240" r="206" fill="url(#paint0_radial_7_223)" stroke-width="20" stroke="#5D1B1B"/>
+<rect x="97.5" y="169.5" width="106.2" height="67.8" rx="6.5" fill="#432411" stroke-width="3" stroke="#1B0C02"/>
+<rect x="293.1" y="175.5" width="106.2" height="67.8" rx="6.5" fill="#432411" stroke-width="3" stroke="#1B0C02"/>
+<path d="M201.842 99.136L260.841 58.5687C263.799 56.5348 267.845 57.2839 269.879 60.242L300.928 105.397C302.962 108.356 302.213 112.402 299.255 114.436L240.256 155.004C237.298 157.037 233.251 156.288 231.217 153.33L200.169 108.175C198.135 105.217 198.884 101.17 201.842 99.136Z" fill="#432411" stroke-width="3" stroke="#1B0C02"/>
+<ellipse cx="216.767" cy="222.532" rx="12.6" ry="38.4" transform="rotate(-43.4841 216.767 222.532)" fill="#206915"/>
+<rect x="133.2" y="271.2" width="18" height="16.8" fill="#AF0A0A"/>
+<rect x="327.176" y="117.6" width="18" height="25.2" transform="rotate(48.1655 327.176 117.6)" fill="#AF0A0A"/>
+<rect x="191.002" y="131.713" width="18" height="25.2" transform="rotate(-160.83 191.002 131.713)" fill="#AF0A0A"/>
+<defs>
+<radialGradient id="paint0_radial_7_223" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(165.6 175.2) rotate(55.2323) scale(539.763 992.718)">
+<stop stop-color="#803B16"/>
+<stop offset="0.692308" stop-color="#4F250E"/>
+<stop offset="1" stop-color="#532F1D"/>
+</radialGradient>
+</defs>
+</svg>

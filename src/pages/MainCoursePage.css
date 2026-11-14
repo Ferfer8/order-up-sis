@@ -1,0 +1,32 @@
+/* Dish positions. Each height matches its SVG's shape at 440px wide.
+   Label sides are set in MainCoursePage.jsx (labelPosition).
+   --label-top / --label-left fine-tune the hover label, --bubble-top /
+   --bubble-left move the speech bubble (same as the Appetizer page). */
+
+.jollof-rice {
+    width: 440px;
+    height: 370px;
+    left: 40px;
+    top: 30px;
+}
+
+.fried-rice {
+    width: 440px;
+    height: 398px;
+    left: 120px;
+    top: 420px;
+}
+
+.chicken {
+    width: 440px;
+    height: 331px;
+    right: 40px;
+    top: 50px;
+}
+
+.fish {
+    width: 440px;
+    height: 331px;
+    right: 120px;
+    top: 420px;
+}

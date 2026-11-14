@@ -1,0 +1,52 @@
+<svg width="552" height="415" viewBox="0 0 552 415" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="275.665" cy="207.032" rx="275.665" ry="207.032" fill="white"/>
+<ellipse cx="276.232" cy="207.032" rx="255.813" ry="192.285" fill="white"/>
+<mask id="stroke0_7_239" fill="white">
+<path d="M532.045 207.032C532.045 313.228 417.514 399.317 276.232 399.317C134.951 399.317 20.4197 313.228 20.4197 207.032C20.4197 100.836 134.951 14.7476 276.232 14.7476C417.514 14.7476 532.045 100.836 532.045 207.032Z"/>
+</mask>
+<ellipse cx="276.232" cy="207.032" rx="255.813" ry="192.285" stroke-width="4" stroke="#CAB2B2" mask="url(#stroke0_7_239)"/>
+<path d="M73.1043 103.889L158.222 193.874L55.1802 226.45L73.1043 103.889Z" fill="#D5A33E"/>
+<mask id="stroke1_7_239" fill="white">
+<path d="M73.1043 103.889L158.222 193.874L55.1802 226.45L73.1043 103.889Z"/>
+</mask>
+<path d="M73.1043 103.889L158.222 193.874L55.1802 226.45L73.1043 103.889Z" stroke-width="6" stroke="#432411" mask="url(#stroke1_7_239)"/>
+<path d="M157.685 56.7212L211.719 168.178H103.651L157.685 56.7212Z" fill="#D5A33E"/>
+<mask id="stroke2_7_239" fill="white">
+<path d="M157.685 56.7212L211.719 168.178H103.651L157.685 56.7212Z"/>
+</mask>
+<path d="M157.685 56.7212L211.719 168.178H103.651L157.685 56.7212Z" stroke-width="6" stroke="#432411" mask="url(#stroke2_7_239)"/>
+<path d="M90.5467 172.081L175.532 262.191L72.443 294.615L90.5467 172.081Z" fill="#D5A33E"/>
+<mask id="stroke3_7_239" fill="white">
+<path d="M90.5467 172.081L175.532 262.191L72.443 294.615L90.5467 172.081Z"/>
+</mask>
+<path d="M90.5467 172.081L175.532 262.191L72.443 294.615L90.5467 172.081Z" stroke-width="6" stroke="#432411" mask="url(#stroke3_7_239)"/>
+<path d="M154.98 130.481L239.134 221.367L135.751 252.843L154.98 130.481Z" fill="#D5A33E"/>
+<mask id="stroke4_7_239" fill="white">
+<path d="M154.98 130.481L239.134 221.367L135.751 252.843L154.98 130.481Z"/>
+</mask>
+<path d="M154.98 130.481L239.134 221.367L135.751 252.843L154.98 130.481Z" stroke-width="6" stroke="#432411" mask="url(#stroke4_7_239)"/>
+<path d="M351.279 55.4394L396.1 41.5811L435.761 169.855L390.94 183.713L351.279 55.4394Z" fill="#D5A33E" stroke-width="3" stroke="#432411"/>
+<path d="M353.025 56.7777C380.115 75.4637 391.983 56.008 394.53 43.9445L353.025 56.7777Z" fill="#D5A33E" stroke-width="3" stroke="#432411"/>
+<path d="M391.302 180.574C403.118 149.858 423.896 159.22 432.808 167.74L391.302 180.574Z" fill="#D5A33E" stroke-width="3" stroke="#432411"/>
+<path d="M409.134 88.3377L453.956 74.4794L493.617 202.753L448.796 216.611L409.134 88.3377Z" fill="#D5A33E" stroke-width="3" stroke="#432411"/>
+<path d="M410.881 89.676C437.971 108.362 449.839 88.9063 452.386 76.8428L410.881 89.676Z" fill="#D5A33E" stroke-width="3" stroke="#432411"/>
+<path d="M449.158 213.472C460.974 182.756 481.751 192.118 490.663 200.639L449.158 213.472Z" fill="#D5A33E" stroke-width="3" stroke="#432411"/>
+<circle cx="326.714" cy="199.659" r="36.3016" fill="#C09468"/>
+<circle cx="326.714" cy="199.659" r="34.8016" stroke-width="3" stroke="#B48831"/>
+<circle cx="326.714" cy="199.659" r="34.8016" stroke-width="3" stroke="#B48831"/>
+<circle cx="300.622" cy="140.669" r="36.3016" fill="#C09468"/>
+<circle cx="300.622" cy="140.669" r="34.8016" stroke-width="3" stroke="#B48831"/>
+<circle cx="300.622" cy="140.669" r="34.8016" stroke-width="3" stroke="#B48831"/>
+<circle cx="256.38" cy="178.105" r="36.3016" fill="#C09468"/>
+<circle cx="256.38" cy="178.105" r="34.8016" stroke-width="3" stroke="#B48831"/>
+<circle cx="256.38" cy="178.105" r="34.8016" stroke-width="3" stroke="#B48831"/>
+<circle cx="232.557" cy="93.0228" r="36.3016" fill="#C09468"/>
+<circle cx="232.557" cy="93.0228" r="34.8016" stroke-width="3" stroke="#B48831"/>
+<circle cx="232.557" cy="93.0228" r="34.8016" stroke-width="3" stroke="#B48831"/>
+<circle cx="311.967" cy="93.0228" r="36.3016" fill="#C09468"/>
+<circle cx="311.967" cy="93.0228" r="34.8016" stroke-width="3" stroke="#B48831"/>
+<circle cx="311.967" cy="93.0228" r="34.8016" stroke-width="3" stroke="#B48831"/>
+<circle cx="254.111" cy="121.383" r="36.3016" fill="#C09468"/>
+<circle cx="254.111" cy="121.383" r="34.8016" stroke-width="3" stroke="#B48831"/>
+<circle cx="254.111" cy="121.383" r="34.8016" stroke-width="3" stroke="#B48831"/>
+</svg>

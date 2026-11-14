@@ -1,0 +1,18 @@
+<svg width="531" height="531" viewBox="0 0 531 531" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="265.5" cy="265.5" r="265.5" fill="#FFF2F2"/>
+<circle cx="265.5" cy="265.5" r="210.5" fill="white" stroke-width="2" stroke="#FFC800"/>
+<circle cx="267" cy="263" r="180" fill="url(#paint0_radial_7_410)"/>
+<rect x="194.109" y="202.5" width="88" height="56" rx="6.5" fill="#432411" stroke-width="3" stroke="#1B0C02"/>
+<path d="M295.694 246.714L350.129 229.806C353.557 228.741 357.199 230.657 358.264 234.085L371.02 275.149C372.085 278.578 370.169 282.22 366.741 283.285L312.306 300.194C308.878 301.259 305.236 299.343 304.171 295.914L291.415 254.85C290.35 251.422 292.266 247.779 295.694 246.714Z" fill="#432411" stroke-width="3" stroke="#1B0C02"/>
+<path d="M177.679 265.125L233.66 275.853C237.186 276.528 239.496 279.934 238.821 283.46L230.728 325.691C230.052 329.217 226.647 331.528 223.121 330.852L167.139 320.124C163.614 319.449 161.303 316.043 161.979 312.517L170.072 270.286C170.747 266.76 174.153 264.449 177.679 265.125Z" fill="#432411" stroke-width="3" stroke="#1B0C02"/>
+<ellipse cx="264.386" cy="193.318" rx="10.5" ry="32" transform="rotate(43.9791 264.386 193.318)" fill="#206915"/>
+<rect x="305.769" y="230.191" width="15" height="21" transform="rotate(123.668 305.769 230.191)" fill="#AF0A0A"/>
+<rect x="239.049" y="295.502" width="15" height="21" transform="rotate(160.745 239.049 295.502)" fill="#AF0A0A"/>
+<defs>
+<radialGradient id="paint0_radial_7_410" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(205 209) rotate(55.2323) scale(449.803 827.265)">
+<stop stop-color="#803B16"/>
+<stop offset="0.692308" stop-color="#4F250E"/>
+<stop offset="1" stop-color="#532F1D"/>
+</radialGradient>
+</defs>
+</svg>

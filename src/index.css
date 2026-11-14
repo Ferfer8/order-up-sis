@@ -2,3 +2,76 @@ body {
     background-image: url("/images/main_course/table.svg");
     background-size: cover;
 }
+
+/* Little wobble used when a dish is scooped or plated
+   (shared by the spoon cursor, dishes and plate) */
+.shake {
+    animation: shake 0.45s ease-in-out;
+}
+
+@keyframes shake {
+    0%,
+    100% {
+        rotate: 0deg;
+    }
+
+    20% {
+        rotate: -6deg;
+    }
+
+    40% {
+        rotate: 5deg;
+    }
+
+    60% {
+        rotate: -4deg;
+    }
+
+    80% {
+        rotate: 2deg;
+    }
+}
+
+/* Side-to-side "no" shake for the wrong dish */
+.shake-no {
+    animation: shake_no 0.5s ease-in-out;
+}
+
+@keyframes shake_no {
+    0%,
+    100% {
+        translate: 0 0;
+    }
+
+    15%,
+    55% {
+        translate: -14px 0;
+    }
+
+    35%,
+    75% {
+        translate: 14px 0;
+    }
+}
+
+/* Shared by several pages */
+.top-text {
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    color: #fff3df;
+    text-shadow: 0 2px 0 #3b1d0a;
+    text-align: center;
+    margin: 30px 0 10px 0;
+}
+
+.plate {
+    display: block;
+    width: 350px;
+    height: 350px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    margin: 0 auto;
+    filter: drop-shadow(10px 16px 18px rgba(0, 0, 0, 0.3));
+}

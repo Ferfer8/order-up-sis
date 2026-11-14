@@ -1,5 +1,13 @@
+/* Label side: pass labelPosition="top" | "bottom" | "left" | "right" to <Dish>
+   (default "bottom"). To fine-tune, set --label-top / --label-left on the
+   dish's own class (see AppetizerPage.css); those win over the presets below. */
 .dish {
     position: fixed;
+}
+
+/* The hovered dish (and its label) sits above the others */
+.dish:hover {
+    z-index: 5;
 }
 
 .dish-image {
@@ -11,10 +19,9 @@
 
 .dish-label {
     position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 8px;
+    top: var(--label-top, 100%);
+    left: var(--label-left, 50%);
+    transform: translate(var(--label-x, -50%), var(--label-y, 8px));
     white-space: nowrap;
     font-family: "Chewy", cursive;
     font-size: 30px;
@@ -31,4 +38,25 @@
 
 .dish:hover .dish-label {
     opacity: 1;
+}
+
+/* Label position presets. :where() keeps them weak so a page's
+   own --label-* values can still override them. */
+:where(.label-top) {
+    --label-top: 0%;
+    --label-y: calc(-100% - 8px);
+}
+
+:where(.label-left) {
+    --label-top: 50%;
+    --label-left: 0%;
+    --label-x: calc(-100% - 8px);
+    --label-y: -50%;
+}
+
+:where(.label-right) {
+    --label-top: 50%;
+    --label-left: 100%;
+    --label-x: 8px;
+    --label-y: -50%;
 }

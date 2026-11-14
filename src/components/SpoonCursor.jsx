@@ -1,7 +1,9 @@
 import { useEffect, useRef } from "react"
 import "./SpoonCursor.css"
 
-function SpoonCursor() {
+const EMPTY_SPOON = "/images/appetizer/spoon.svg"
+
+function SpoonCursor({ src = EMPTY_SPOON, bounceKey = 0 }) {
     const spoonRef = useRef(null)
 
     useEffect(() => {
@@ -30,11 +32,34 @@ function SpoonCursor() {
         }
     }, [])
 
+    // Play an animation class from the start
+    const playAnimation = (className) => {
+        const spoon = spoonRef.current
+        spoon.classList.remove("shake", "spoon-bounce")
+        void spoon.offsetWidth // restart the animation
+        spoon.classList.add(className)
+    }
+
+    // Wobble whenever the spoon picks something up or puts it down
+    const isFirstSrc = useRef(true)
+    useEffect(() => {
+        if (isFirstSrc.current) {
+            isFirstSrc.current = false
+            return
+        }
+        playAnimation("shake")
+    }, [src])
+
+    // Small bounce back when she tries the wrong dish
+    useEffect(() => {
+        if (bounceKey > 0) playAnimation("spoon-bounce")
+    }, [bounceKey])
+
     return (
         <img
             ref={spoonRef}
             className="spoon-cursor"
-            src="/images/appetizer/spoon.svg"
+            src={src}
             alt=""
             aria-hidden="true"
         />
