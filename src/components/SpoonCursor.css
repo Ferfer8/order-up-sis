@@ -1,0 +1,17 @@
+body.spoon-cursor-active,
+body.spoon-cursor-active * {
+    cursor: none !important;
+}
+
+.spoon-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
+    /* the bowl of the spoon (its centre is ~17% down the image) sits on the pointer */
+    transform: translate(-50%, -17%);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 9999;
+    filter: drop-shadow(6px 10px 6px rgba(0, 0, 0, 0.35));
+}

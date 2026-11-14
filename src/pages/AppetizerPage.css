@@ -1,0 +1,54 @@
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: "Chewy", cursive;
+    font-size: 22px;
+    color: #3b1d0a;
+    background: #ffd45c;
+    border: 3px solid #3b1d0a;
+    border-radius: 999px;
+    padding: 6px 18px 6px 12px;
+    box-shadow: 0 4px 0 #3b1d0a;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.back-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 0 #3b1d0a;
+}
+
+.back-button:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 #3b1d0a;
+}
+
+.plate {
+    display: block;
+    width: 350px;
+    height: 350px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    margin: 0 auto;
+    filter: drop-shadow(10px 16px 18px rgba(0, 0, 0, 0.3));
+}
+
+.small-chops {
+    width: 450px;
+    height: 450px;
+    left: 100px;
+    top: 30px;
+}
+
+.pepper-soup {
+    width: 370px;
+    height: 370px;
+    right: 100px;
+    top: 60px;
+}

@@ -1,0 +1,62 @@
+.msg-cd {
+    background-color: #fff3df;
+    box-shadow: 0 10px 0 #3b1d0a, 12px 22px 30px rgba(0, 0, 0, 0.35);
+    border-radius: 25px;
+    border: 4px solid #3b1d0a;
+    margin: auto;
+    transform: rotate(-3deg);
+    padding: 20px;
+}
+
+.msg-cd-header {
+    font-family: "Chewy", cursive;
+    color: #E83815;
+    font-size: 45px;
+    margin: 0;
+    text-align: center;
+}
+
+.msg-cd-text {
+    font-family: "Fredoka", sans-serif;
+    color: #3b1d0a;
+    font-size: 20px;
+    text-align: center;
+}
+
+.dashed-line {
+    display: block;
+    width: 100%;
+    border-top: 3px dashed #C4A484;
+    margin: 12px 0;
+}
+
+.course-list {
+    display: flex;
+    align-items: center;
+}
+
+.course-num {
+    font-family: "Chewy", cursive;
+    color: #E83815;
+    font-size: 30px;
+}
+
+.course-list-name {
+    font-family: "Chewy", cursive;
+    color: #3b1d0a;
+    font-size: 30px;
+}
+
+.course-item p {
+    margin: 0;
+}
+
+.course-item {
+    margin-left: 60px;
+}
+
+.course-list-text {
+    font-family: "Fredoka", sans-serif;
+    color: #3b1d0a;
+    font-size: 15px;
+}
