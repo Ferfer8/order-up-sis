@@ -1,3 +1,4 @@
+/* Landing page decorations and the Let's eat button */
 .plate-corner {
     position: fixed;
     right: -140px;
@@ -85,6 +86,7 @@
     box-shadow: 0 2px 0 #3b1d0a;
 }
 
+/* Lines the arrow icon up with the text */
 .next-button {
     display: flex;
     align-items: center;

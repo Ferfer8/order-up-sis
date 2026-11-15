@@ -1,0 +1,44 @@
+/* Drink positions and the grab cursor */
+/* Row of drinks bottom-left; the chosen one slides to the right of the plate */
+.drink {
+    width: 130px;
+    height: 130px;
+    bottom: 140px;
+    transition: left 0.45s ease, bottom 0.45s ease;
+    --bubble-top: 0%;
+    --bubble-left: 50%;
+}
+
+.drink-mango-juice {
+    left: 100px;
+}
+
+.drink-water {
+    left: 250px;
+}
+
+.drink-zobo {
+    left: 400px;
+}
+
+/* Plate is 350px and centred, so 190px clears its right edge */
+.drink-chosen {
+    left: calc(50% + 190px);
+    bottom: 50px;
+}
+
+/* Drinks are grabbed by hand, so swap the spoon for a grab cursor.
+   Needs body.spoon-cursor-active to beat the cursor: none rule */
+body.spoon-cursor-active .drink,
+body.spoon-cursor-active .drink * {
+    cursor: grab !important;
+}
+
+body.spoon-cursor-active .drink:active,
+body.spoon-cursor-active .drink:active * {
+    cursor: grabbing !important;
+}
+
+body:has(.drink:hover) .spoon-cursor-follow {
+    visibility: hidden;
+}

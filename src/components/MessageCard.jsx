@@ -1,3 +1,4 @@
+// Welcome card on the landing page listing the courses
 import "./MessageCard.css"
 function MessageCard({ header, text, height = "450px", width = "480px" }) {
     return (

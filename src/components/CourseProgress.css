@@ -1,3 +1,4 @@
+/* Progress dots and status text */
 .course-progress {
     position: fixed;
     left: 40px;
@@ -22,6 +23,7 @@
     background-color: rgba(255, 243, 223, 0.35);
 }
 
+/* Current step stretches into a pill */
 .progress-dot-current {
     width: 50px;
     background-color: #fff3df;

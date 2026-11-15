@@ -1,6 +1,5 @@
-/* Sits inside a .dish. Move it per dish with --bubble-top and
-   --bubble-left on the dish's own class (see AppetizerPage.css).
-   The values are where the tip of the tail points. */
+/* Speech bubble and its tail */
+/* Position with --bubble-top / --bubble-left on the parent. They mark the tail tip */
 .speech-bubble {
     position: absolute;
     top: var(--bubble-top, 10%);
@@ -25,7 +24,7 @@
     animation: bubble_life 2.8s ease forwards;
 }
 
-/* little tail pointing down at the dish */
+/* Tail pointing down */
 .speech-bubble::after {
     content: "";
     position: absolute;
@@ -50,7 +49,7 @@
         scale: 1;
     }
 
-    /* stays up for about 2.5s */
+    /* Holds for about 2.5s */
     90% {
         opacity: 1;
         scale: 1;
@@ -60,4 +59,28 @@
         opacity: 0;
         scale: 1;
     }
+}
+
+/* Steady: pops in and stays (joke Back button) */
+.speech-bubble-steady {
+    animation: bubble_in 0.2s ease-out;
+}
+
+@keyframes bubble_in {
+    from {
+        opacity: 0;
+        scale: 0.7;
+    }
+}
+
+/* Below: left-aligned under the anchor, tail on top pointing up */
+.speech-bubble-below {
+    transform: translate(0, 14px);
+}
+
+.speech-bubble-below::after {
+    left: 28px;
+    top: -11px;
+    bottom: auto;
+    transform: rotate(225deg);
 }

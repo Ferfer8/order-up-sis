@@ -1,3 +1,4 @@
+// Landing page with the welcome card and the Let's eat button
 import "./LandingPage.css"
 import { ArrowRight } from "lucide-react"
 import MessageCard from "../components/MessageCard"

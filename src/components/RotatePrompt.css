@@ -1,0 +1,68 @@
+/* Rotate-your-phone overlay, styled like the welcome card */
+.rotate-prompt {
+    display: none;
+}
+
+/* Phones held upright only (tablets are wide enough either way) */
+@media (hover: none) and (pointer: coarse) and (orientation: portrait) and (max-width: 767px) {
+    .rotate-prompt {
+        position: fixed;
+        inset: 0;
+        z-index: 10000; /* above the spoon and pop-ups */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+        background-image: url("/images/main_course/table.svg");
+        background-size: cover;
+        background-position: center;
+        /* The page is shrunk on touch screens; this one should be full size */
+        zoom: var(--touch-unscale, 1);
+    }
+
+    .rotate-prompt-card {
+        width: min(340px, 100%);
+        box-sizing: border-box;
+        padding: 28px 24px;
+        text-align: center;
+        color: #3b1d0a;
+        background-color: #fff3df;
+        border: 4px solid #3b1d0a;
+        border-radius: 25px;
+        box-shadow: 0 10px 0 #3b1d0a, 12px 22px 30px rgba(0, 0, 0, 0.35);
+        transform: rotate(-3deg);
+    }
+
+    .rotate-prompt-icon {
+        color: #E83815;
+        animation: rotate_hint 2s ease-in-out infinite;
+    }
+
+    .rotate-prompt-heading {
+        margin: 12px 0 6px;
+        font-family: "Chewy", cursive;
+        font-size: 34px;
+        line-height: 1.1;
+        color: #E83815;
+    }
+
+    .rotate-prompt-text {
+        margin: 0;
+        font-family: "Fredoka", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+/* Little nudge so the icon reads as "rotate" */
+@keyframes rotate_hint {
+    0%,
+    60%,
+    100% {
+        rotate: 0deg;
+    }
+
+    30% {
+        rotate: 90deg;
+    }
+}

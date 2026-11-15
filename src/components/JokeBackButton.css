@@ -1,0 +1,10 @@
+/* Joke Back button position and where its bubble hangs */
+/* Same spot as the real Back button; bubble hangs below, near the left edge */
+.joke-back {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 20;
+    --bubble-top: 100%;
+    --bubble-left: 12px;
+}

@@ -1,3 +1,4 @@
+/* Pop-up overlay, card and buttons */
 .greedy-popup-overlay {
     position: fixed;
     inset: 0;
@@ -71,4 +72,17 @@
         transform: rotate(-2deg) scale(0.6);
         opacity: 0;
     }
+}
+
+/* One button, or two when there's a second choice */
+.greedy-popup-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+/* Second button: cream instead of yellow */
+.greedy-popup-button-secondary {
+    background: #fff3df;
 }

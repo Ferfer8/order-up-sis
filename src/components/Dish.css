@@ -1,11 +1,10 @@
-/* Label side: pass labelPosition="top" | "bottom" | "left" | "right" to <Dish>
-   (default "bottom"). To fine-tune, set --label-top / --label-left on the
-   dish's own class (see AppetizerPage.css); those win over the presets below. */
+/* Dish positioning, hover label and label position presets */
+/* Each page positions its dishes; tweak labels with --label-top / --label-left */
 .dish {
     position: fixed;
 }
 
-/* The hovered dish (and its label) sits above the others */
+/* Hovered dish and its label come to the front */
 .dish:hover {
     z-index: 5;
 }
@@ -15,6 +14,8 @@
     width: 100%;
     height: 100%;
     filter: drop-shadow(10px 16px 18px rgba(0, 0, 0, 0.3));
+    /* Own layer so big SVGs (the rice) aren't redrawn on every hover */
+    will-change: transform;
 }
 
 .dish-label {
@@ -40,8 +41,7 @@
     opacity: 1;
 }
 
-/* Label position presets. :where() keeps them weak so a page's
-   own --label-* values can still override them. */
+/* labelPosition presets. :where() keeps them weak so page values still win */
 :where(.label-top) {
     --label-top: 0%;
     --label-y: calc(-100% - 8px);

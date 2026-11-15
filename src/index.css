@@ -1,10 +1,11 @@
+/* Global styles and anything shared by more than one page */
 body {
     background-image: url("/images/main_course/table.svg");
     background-size: cover;
 }
 
-/* Little wobble used when a dish is scooped or plated
-   (shared by the spoon cursor, dishes and plate) */
+/* Wobble for scooping and plating (spoon, dishes, plate). Uses rotate so it
+   doesn't clash with transforms already on those elements */
 .shake {
     animation: shake 0.45s ease-in-out;
 }
@@ -54,7 +55,6 @@ body {
     }
 }
 
-/* Shared by several pages */
 .top-text {
     font-family: "Fredoka", sans-serif;
     font-size: 20px;
@@ -74,4 +74,31 @@ body {
     bottom: 20px;
     margin: 0 auto;
     filter: drop-shadow(10px 16px 18px rgba(0, 0, 0, 0.3));
+}
+
+/* Shared look for the real and joke Back buttons */
+.back-button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: "Chewy", cursive;
+    font-size: 22px;
+    color: #3b1d0a;
+    background: #ffd45c;
+    border: 3px solid #3b1d0a;
+    border-radius: 999px;
+    padding: 6px 18px 6px 12px;
+    box-shadow: 0 4px 0 #3b1d0a;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.back-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 0 #3b1d0a;
+}
+
+.back-button:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 #3b1d0a;
 }

@@ -1,0 +1,36 @@
+/* Dessert positions and the smaller dessert plate */
+.apple-pie {
+    width: 400px;
+    height: 400px;
+    left: 100px;
+    top: 50px;
+    --bubble-top: 12%;
+    --bubble-left: 80%;
+}
+
+.brownie {
+    width: 450px;
+    height: 310px;
+    right: 100px;
+    top: 95px;
+    --bubble-top: 12%;
+    --bubble-left: 20%;
+}
+
+/* Smaller than the usual 350px. plate.svg and plate-brownies.svg fill their frames */
+.plate.dessert-plate {
+    width: 300px;
+    height: 300px;
+}
+
+/* plate-pie.svg is 467x469 with a 350px plate bottom-right (pie hangs off the top-left).
+   Scaled by 300/350 so the plate is 300px, then shifted so it lands on the empty one */
+.plate.dessert-plate.dessert-plate-pie {
+    width: 400px;
+    height: 402px;
+    left: 50%;
+    right: auto;
+    margin: 0;
+    translate: -62.5% 0;
+    transform-origin: 62.5% 62.7%; /* shake around the plate, not the image */
+}

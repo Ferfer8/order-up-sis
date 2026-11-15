@@ -1,26 +1,36 @@
+/* Spoon cursor and its bounce animation */
+/* Hide the real cursor while the spoon is showing */
 body.spoon-cursor-active,
 body.spoon-cursor-active * {
     cursor: none !important;
 }
 
-.spoon-cursor {
+/* Moved to the mouse position from SpoonCursor.jsx */
+.spoon-cursor-follow {
     position: fixed;
     top: 0;
     left: 0;
-    /* sized by height so loaded spoons (which are wider) stay the same length */
-    height: 284px;
-    width: auto;
-    /* the bowl of the spoon (its centre is ~17% down the image) sits on the pointer */
-    transform: translate(-50%, -17%);
-    transform-origin: 50% 17%; /* shake pivots around the bowl */
     opacity: 0;
     pointer-events: none;
     z-index: 9999;
+    will-change: transform;
+}
+
+.spoon-cursor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Sized by height so the wider loaded spoons stay the same length */
+    height: 284px;
+    width: auto;
+    /* Bowl centre is ~17% down the image, so that's what sits on the pointer */
+    transform: translate(-50%, -17%);
+    transform-origin: 50% 17%; /* shake pivots on the bowl */
+    pointer-events: none;
     filter: drop-shadow(6px 10px 6px rgba(0, 0, 0, 0.35));
 }
 
-/* Bounce back when the food is offered to the wrong dish.
-   Uses `translate` so it adds to the positioning transform above. */
+/* Uses translate so it stacks on top of the transform above */
 .spoon-bounce {
     animation: spoon_bounce 0.45s ease-out;
 }

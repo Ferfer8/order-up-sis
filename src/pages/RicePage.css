@@ -1,0 +1,18 @@
+/* Rice pot positions, one each side */
+.jollof-rice {
+    width: 480px;
+    height: 400px;
+    left: 100px;
+    top: 70px;
+    --bubble-top: 12%;
+    --bubble-left: 80%;
+}
+
+.fried-rice {
+    width: 500px;
+    height: 420px;
+    right: 100px;
+    top: 55px;
+    --bubble-top: 10%;
+    --bubble-left: 20%;
+}

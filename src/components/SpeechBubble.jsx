@@ -1,9 +1,23 @@
+// Speech bubble with a tail, either timed or steady
 import "./SpeechBubble.css"
 
-// Pops in, stays for about 2.5s, fades out by itself, then calls onDone.
-function SpeechBubble({ message, onDone }) {
+// Default: pops in, stays ~2.5s, fades out, then calls onDone
+// steady: stays until the parent removes it. below: hangs under the anchor
+function SpeechBubble({ message, onDone, steady = false, below = false }) {
+    const className = [
+        "speech-bubble",
+        steady && "speech-bubble-steady",
+        below && "speech-bubble-below",
+    ]
+        .filter(Boolean)
+        .join(" ")
+
     return (
-        <p className="speech-bubble" role="status" onAnimationEnd={onDone}>
+        <p
+            className={className}
+            role="status"
+            onAnimationEnd={onDone}
+        >
             {message}
         </p>
     )

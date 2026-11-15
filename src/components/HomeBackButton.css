@@ -1,0 +1,7 @@
+/* Pins the real Back button top-left */
+.home-back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 20;
+}

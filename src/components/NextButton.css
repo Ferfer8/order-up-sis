@@ -1,9 +1,6 @@
-/* Mirrors .back-button, but in the bottom-right corner
-   (lined up with the course progress on the bottom-left) */
+/* Next button, active and inactive looks */
+/* Position comes from .course-nav */
 .next-course-button {
-    position: fixed;
-    bottom: 34px;
-    right: 40px;
     display: flex;
     align-items: center;
     gap: 6px;
@@ -30,7 +27,7 @@
     box-shadow: 0 1px 0 #3b1d0a;
 }
 
-/* Inactive: faded, muted colours, no hover or press */
+/* Inactive: muted colours, no hover or press */
 .next-course-button:disabled {
     color: #8a7563;
     background: #e8dcc0;

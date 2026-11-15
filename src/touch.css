@@ -1,0 +1,63 @@
+/* Touch-screen tweaks. Everything is inside the touch media query, so mouse users get none of it */
+@media (hover: none) and (pointer: coarse) {
+    /* Shrink the whole page to fit (values come from utils/touchScale.js) */
+    body {
+        zoom: var(--touch-scale, 1);
+    }
+
+    /* Course pages fit the screen, so no scrolling. The receipt page can scroll */
+    body:not(:has(.order-page)) {
+        overflow: hidden;
+    }
+
+    /* Bring buttons back up to a size that's easy to tap */
+    .course-nav,
+    .home-back-button,
+    .joke-back,
+    .order-button {
+        zoom: var(--touch-button-zoom, 1);
+    }
+
+    /* Status text would be tiny at page scale. Let's eat is already big,
+       so it only needs this smaller boost to stay on screen */
+    .course-progress,
+    .next-button {
+        zoom: var(--touch-text-zoom, 1);
+    }
+
+    /* Pop-ups readable, and never taller than the screen */
+    .greedy-popup {
+        zoom: var(--touch-popup-zoom, 1);
+        max-height: calc(100vh / var(--touch-scale, 1) / var(--touch-popup-zoom, 1) - 32px);
+        overflow-y: auto;
+    }
+
+    /* No hover, so dish names are always showing */
+    .dish-label {
+        opacity: 1;
+    }
+
+    /* Spoon is always visible and glides between dish and plate */
+    .spoon-cursor-follow {
+        opacity: 1;
+        transition: transform 0.4s ease;
+    }
+
+    /* A tapped drink stays :hover on touch, which would hide the spoon */
+    body:has(.drink:hover) .spoon-cursor-follow {
+        visibility: visible;
+    }
+
+    /* Wrong-dish and drink bubbles: pinned top-centre so they can't go off screen */
+    .dish .speech-bubble {
+        position: fixed;
+        top: 26%;
+        left: 50%;
+        zoom: var(--touch-bubble-zoom, 1);
+    }
+
+    /* The tail would point at nothing once the bubble is pinned */
+    .dish .speech-bubble::after {
+        display: none;
+    }
+}

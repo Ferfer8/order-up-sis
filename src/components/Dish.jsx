@@ -1,12 +1,10 @@
+// A clickable dish with a hover label, shake animations and an optional speech bubble
 import "./Dish.css"
 import SpeechBubble from "./SpeechBubble"
 
+// shake.type -> class in index.css
 const SHAKE_CLASSES = { wobble: "shake", no: "shake-no" }
 
-// shake:  { count, type }. A new count restarts the animation.
-//         type is "wobble" (scooped / returned) or "no" (wrong dish).
-// bubble: { message, key } shows a speech bubble next to this dish.
-// labelPosition: "bottom" (default), "top", "left" or "right"
 function Dish({
     name,
     src,
@@ -17,6 +15,7 @@ function Dish({
     bubble,
     onBubbleDone,
 }) {
+    // It's a div, so Enter/Space need wiring up to work like a button
     const handleKeyDown = (event) => {
         if (event.key === "Enter" || event.key === " ") {
             event.preventDefault()
@@ -35,6 +34,7 @@ function Dish({
             onClick={onClick}
             onKeyDown={handleKeyDown}
         >
+            {/* New key = fresh img, which restarts the shake animation */}
             <img
                 key={shake?.count ?? 0}
                 className={`dish-image ${shakeClass}`}

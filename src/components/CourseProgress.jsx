@@ -1,29 +1,34 @@
+// Progress dots and status text in the bottom-left of the course pages
 import "./CourseProgress.css"
+import { STEPS } from "../data/courses"
+import useIsTouch from "../hooks/useIsTouch"
 
-const TOTAL_COURSES = 3
+// step is 1-based, so it lines up with STEPS
+function CourseProgress({ step, text }) {
+    // No hover on touch screens, so the hint talks about tapping instead
+    const isTouch = useIsTouch()
+    const hint = isTouch
+        ? "Tap a dish to scoop it, then tap your plate"
+        : "Hover a dish, then scoop it with the spoon"
 
-function CourseProgress({
-    course,
-    text = "Hover a dish, then scoop it with the spoon",
-}) {
     return (
         <div className="course-progress">
             <div
                 className="progress-dots"
-                aria-label={`Progress: course ${course} of ${TOTAL_COURSES}`}
+                aria-label={`Progress: step ${step} of ${STEPS.length}`}
             >
-                {Array.from({ length: TOTAL_COURSES }, (_, index) => (
+                {STEPS.map((item, index) => (
                     <span
-                        key={index}
+                        key={item.id}
                         className={
-                            index + 1 === course
+                            index + 1 === step
                                 ? "progress-dot progress-dot-current"
                                 : "progress-dot"
                         }
                     ></span>
                 ))}
             </div>
-            <p className="progress-text">{text}</p>
+            <p className="progress-text">{text ?? hint}</p>
         </div>
     )
 }

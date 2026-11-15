@@ -1,12 +1,13 @@
+// Appetizer page: small chops or pepper soup
 import "./AppetizerPage.css"
-import { useNavigate } from "react-router-dom"
-import { ArrowLeft } from "lucide-react"
 import WaveHeading from "../components/WaveHeading"
 import CourseProgress from "../components/CourseProgress"
+import CourseNav from "../components/CourseNav"
+import HomeBackButton from "../components/HomeBackButton"
 import Dish from "../components/Dish"
 import GreedyPopup from "../components/GreedyPopup"
-import NextButton from "../components/NextButton"
 import useScoop from "../hooks/useScoop"
+import { getStep } from "../data/courses"
 
 const DISHES = [
     { id: "small-chops", name: "Small chops" },
@@ -19,23 +20,17 @@ const spoonImage = (id) => `/images/appetizer_fetch/spoon-${id}.svg`
 const plateImage = (id) => `/images/appetizer_fetch/plate-${id}.svg`
 const EMPTY_PLATE = "/images/appetizer/plate.svg"
 
+const STEP = getStep("starter")
+
 function AppetizerPage() {
-    const navigate = useNavigate()
     const scoop = useScoop({ course: "starter", dishes: DISHES, spoonImage })
     const { onPlate, platedDish } = scoop
 
     return (
         <>
-            <button
-                className="back-button"
-                onClick={() => navigate("/")}
-            >
-                <ArrowLeft size={22} strokeWidth={3} />
-                Back
-            </button>
-            <NextButton to="/main-course" disabled={!onPlate} />
-            <h6 className="top-text">COURSE 1 OF 3</h6>
-            <WaveHeading title="Appetizer" />
+            <HomeBackButton />
+            <h6 className="top-text">{STEP.label}</h6>
+            <WaveHeading title={STEP.title} />
 
             <img
                 key={scoop.plateShakes}
@@ -59,9 +54,11 @@ function AppetizerPage() {
             ))}
 
             <CourseProgress
-                course={1}
+                step={STEP.number}
                 text={platedDish ? `On your plate: ${platedDish.name}` : undefined}
             />
+
+            <CourseNav nextTo={STEP.nextPath} canContinue={Boolean(onPlate)} />
 
             <GreedyPopup
                 message={scoop.greedyMessage}
