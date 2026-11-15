@@ -10,6 +10,7 @@ import DessertPage from "./pages/DessertPage"
 import OrderPage from "./pages/OrderPage"
 import SpoonCursor from "./components/SpoonCursor"
 import RotatePrompt from "./components/RotatePrompt"
+import PhoneNotice from "./components/PhoneNotice"
 import useIsTouch from "./hooks/useIsTouch"
 import { clearProgress, loadProgress, saveProgress } from "./utils/progressStorage"
 import { applyTouchScale } from "./utils/touchScale"
@@ -85,6 +86,8 @@ function App() {
 
   return (
     <>
+    {/* Touch screens only: the notice sits on top of the rotate prompt until OK */}
+    <PhoneNotice />
     <RotatePrompt />
     <Routes>
       <Route
