@@ -2,7 +2,7 @@
 
 A whimsical dinner menu web app where you build your meal by scooping food onto your plate with a spoon.
 
-▶️ **Try it here:** [https://order-up-sis.netlify.app]
+▶️ **Try it here:** https://order-up-sis.netlify.app
 
 ## About
 
@@ -48,7 +48,7 @@ I made it for her, but it turned into something I wanted in my portfolio too. Mo
 
 I created all of the assets myself in Figma: the food, plates, spoons and the table. Everything is built from basic shapes like circles, rectangles and triangles, with no stock images or icon packs. I exported each one as an SVG with a transparent background.
 
-🎨 **Figma assets:** [https://www.figma.com/design/qRzncWhMfAQgn2m2CrBqkh/Order-up-sis-assets?node-id=0-1&t=4AotePc7f7HBZ8sb-1]
+🎨 **Figma assets:** https://www.figma.com/design/qRzncWhMfAQgn2m2CrBqkh/Order-up-sis-assets?node-id=0-1&t=4AotePc7f7HBZ8sb-1
 
 Every dish has a few versions (full, scooped, on the spoon, on the plate), and the app swaps between them as the state changes.
 
